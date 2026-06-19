@@ -1,14 +1,12 @@
 # SYNTACXHUB Weather App
 
-## Overview
-
-A modern Weather Forecast Application built using React.js, Tailwind CSS, Axios, and OpenWeather API. The application provides real-time weather information and a 5-day weather forecast for any city.
+A responsive Weather Forecast Application built using React.js, Vite, Tailwind CSS, Axios, and OpenWeather API.
 
 ## Features
 
 * Search weather by city name
-* Current weather conditions
-* 5-day weather forecast
+* Real-time weather information
+* 5-Day weather forecast
 * Dynamic weather icons
 * Dynamic background based on weather conditions
 * Loading spinner
@@ -26,36 +24,42 @@ A modern Weather Forecast Application built using React.js, Tailwind CSS, Axios,
 
 ## Installation
 
-1. Clone the repository
+Clone the repository:
 
-```bash
-git clone <repository-url>
-```
+git clone https://github.com/ashutoshmohanty1/syntacxhub-weather-app.git
 
-2. Install dependencies
+Install dependencies:
 
-```bash
 npm install
-```
 
-3. Create a .env file
+Create a .env file:
 
-```env
 VITE_WEATHER_API_KEY=YOUR_API_KEY
-```
 
-4. Run the project
+Run the application:
 
-```bash
 npm run dev
-```
 
-## Build Project
+Build for production:
 
-```bash
 npm run build
-```
+
+## Project Structure
+
+src/
+├── components/
+│ ├── Sidebar.jsx
+│ ├── CurrentWeather.jsx
+│ └── Forecast.jsx
+├── services/
+│ └── weatherApi.js
+├── App.jsx
+└── main.jsx
 
 ## Author
 
 Ashutosh Mohanty
+
+## GitHub Repository
+
+https://github.com/ashutoshmohanty1/syntacxhub-weather-app
